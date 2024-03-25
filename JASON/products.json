@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Pinarello Paris Disk Ultegra 2023",
+        "price": 8500,
+        "image": "https://worcestercyclecentre.com/wp-content/uploads/2022/08/P21_PARIS_101.jpg"
+    },
+    {
+        "id": 2,
+        "name": "S-Works Venge",
+        "price": 12500,
+        "image": "https://philiplochner.ghost.io/content/images/2020/04/10-most-expensive-road-bikes-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "S-Works Venge Di2",
+        "price": 13500,
+        "image": "https://philiplochner.ghost.io/content/images/2022/09/Venge.jpg"
+    },
+    {
+        "id": 4,
+        "name": "S-Works Tarmac SL7",
+        "price": 8497,
+        "image": "https://philiplochner.ghost.io/content/images/2022/09/Tarmac-1.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Trek Madone SLR 9 Disc eTap Gen 7",
+        "price": 12749,
+        "image": "https://philiplochner.ghost.io/content/images/2022/09/Madone-1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Pinarello Dogma F12 Disk",
+        "price": 5200,
+        "image": "https://philiplochner.ghost.io/content/images/2022/09/Dogma.jpg"
+    },
+    {
+        "id": 7,
+        "name": "BMC Teammachine SLR 01 Disc",
+        "price": 15678,
+        "image": "https://philiplochner.ghost.io/content/images/2022/09/BMC.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Bianchi Oltre XR4 Disc",
+        "price": 11353,
+        "image": "https://philiplochner.ghost.io/content/images/2022/09/Oltre-1.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Damien Hirst Trek Madone",
+        "price": 500000,
+        "image": "https://guebanget.com/tm_images/article/721873e28f2d79d7.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Aurumania Crystal Edition Gold bike",
+        "price": 101096,
+        "image": "https://philiplochner.ghost.io/content/images/2020/04/Aurumani---from-their-website.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Vitus Venon Evo RS Aero Force AXS",
+        "price": 8000,
+        "image": "https://c02.purpledshub.com/uploads/sites/39/2023/05/Vitus-Venon-EVO-CRSBOTY-2023-winner-99ad446.jpg?webp=1&w=1200"
+    },
+    {
+        "id": 12,
+        "name": "Canyon Endurace CFR AXS",
+        "price": 8999,
+        "image": "https://c02.purpledshub.com/uploads/sites/39/2023/08/AM9A9196-Enhanced-NR-c3323dc.jpg?webp=1&w=1200"
+    },
+    {
+        "id": 13,
+        "name": "Giant Defy Advanced SL 0 ",
+        "price": 12000,
+        "image": "https://c02.purpledshub.com/uploads/sites/39/2023/09/Giant-Defy-Advanced-SL-0-01-4dd35cb.jpeg?webp=1&w=1200"
+    },
+    {
+        "id": 14,
+        "name": "Specialized Allez Sport",
+        "price": 1800,
+        "image": "https://c02.purpledshub.com/uploads/sites/39/2023/05/Specialized-Allez-Sport-c3de767.jpg?webp=1&w=1200"
+    },
+    {
+        "id": 15,
+        "name": "Cannondale SuperSix EVO Hi-Mod 2",
+        "price": 8300,
+        "image": "https://c02.purpledshub.com/uploads/sites/39/2023/05/Cannondale-SuperSix-EVO-Hi-Mod-2-01-c5366c5.jpg?webp=1&w=1200"
+    },
+    {
+        "id": 16,
+        "name": "Canyon Ultimate CF SLX 8 Di2 ",
+        "price": 5499,
+        "image": "https://c02.purpledshub.com/uploads/sites/39/2023/10/Canyon-Ultimate-CF-SLX-8-Di2-01-a06bd2e.jpg?webp=1&w=1200"
+    },
+    {
+        "id": 17,
+        "name": "ENVE Melee (Ultegra Di2)",
+        "price": 12834,
+        "image": "https://c02.purpledshub.com/uploads/sites/39/2023/04/ENVE-Melee-Ultegra-Di2-build-01-b3d13bd.jpg?webp=1&w=1200"
+    },
+    {
+        "id": 18,
+        "name": "Specialized S-Works Tarmac SL8 Dura-Ace Di2",
+        "price": 14000,
+        "image": "https://c02.purpledshub.com/uploads/sites/39/2023/10/Specialized-S-Works-Tarmac-SL8-Dura-Ace-Di2-01-53c00bb.jpg?webp=1&w=1200"
+    },
+    {
+        "id": 19,
+        "name": "Trek Émonda ALR 5",
+        "price": 2300,
+        "image": "https://c02.purpledshub.com/uploads/sites/39/2023/05/Trek-Emonda-AL5-01-42648cf.jpg?webp=1&w=1200"
+    },
+    {
+        "id": 20,
+        "name": "Canyon Aeroad CF SLX 7 Disc eTap",
+        "price": 7399,
+        "image": "https://c02.purpledshub.com/uploads/sites/39/2022/10/Canyon-Aeroad-CF-SLX-7-Disc-eTap-01-874b887.jpg?webp=1&w=1200"
+    }
+]

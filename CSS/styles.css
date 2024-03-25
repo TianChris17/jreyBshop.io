@@ -1,0 +1,635 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    font-size: 62.5%;
+}
+body
+{
+    font-size: 1.6rem;
+
+    width: 100%;
+    min-height: 120vh;
+}
+
+/* Designing the header od the page ----------------------------------------------------------------------*/
+
+.header-container
+{
+    display: flex;
+
+    width: 100%;
+
+    margin-top: 2%;
+    padding: 1rem 2rem 1rem;
+}
+
+#brand-name{
+
+    flex: 1;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+
+    color: #505d63;
+}
+
+.navigation
+{
+    width: 33%;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+#about
+{
+    margin-left: 3%;
+}
+#product
+{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#signin
+{
+    margin-right: 3%;
+    padding: 1rem 2rem 1rem;
+    background-color: #505d63;
+    color: #ffff;
+}
+#signup
+{
+    margin-right: 3%;
+    padding: 1rem 2rem 1rem;
+    background-color: #505d63;
+    color: #ffff;
+}
+
+/* Designing the content of the first page---------------------------------------------------------------- */
+
+.content-container{
+
+    margin-top: 5%;
+    width: 100%;
+    min-height: 80vh;
+
+
+    display: grid;
+
+    grid-template-columns: 1 1;
+    grid-template-rows: 1;
+
+    grid-template-areas: "box1 box2";
+}
+#pinarello{
+
+    width: 700px;
+
+    margin-left: 5%;
+    margin-top: 3%;
+    
+    grid-area: box1;
+}
+.content-description{
+
+    width: 450px;
+    min-height: 30vh;
+
+
+    margin-left: 3%;
+    margin-top: 10%;
+
+    grid-area: box2;
+
+}
+#h2-content{
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 3.5rem;
+
+    border-left: 2px solid red;
+
+}
+#h2-desc{
+
+    margin-top: 5%;
+    line-height: 1.5;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+/* Designing the footer of the page ---------------------------------------------------------------------- */
+
+.footer-container{
+
+    width: 100%;
+
+    background-color: #505d63;
+
+    margin-top: 5%;
+
+    display: grid;
+
+    grid-template-columns: 1 1 1 1 1 1 1 1 1 1;
+    grid-template-rows: 1 1;
+
+    grid-template-areas: "box1 box2 box3 box3 box3 box3 box4 box5 box6 box7"
+                         "box8 box8 box8 box8 box8 box8 box8 box8 box8 box8";
+}
+#footer-desc{
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+
+    color: white;
+
+    font-size: 1.8rem;
+
+    grid-area: box1;
+
+    margin-left: 3%;
+}
+#footer-desc2{
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+
+    color: white;
+
+    font-size: 1.8rem;
+
+    grid-area: box2;
+}
+#footer-desc3{
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+
+    color: white;
+
+    font-size: 1.8rem;
+
+    grid-area: box3;
+}
+#fb{
+
+    grid-area: box4;
+
+    margin-top: 10%;
+}
+#ig{
+    grid-area: box5;
+
+    margin-top: 10%;
+}
+#tk{
+    grid-area: box6;
+
+    margin-top: 10%;
+}
+#yt{
+    grid-area: box7;
+
+    margin-top: 10%;
+}
+#copyright{
+
+    text-align: center;
+    color: white;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+
+      grid-area: box8;
+}
+
+/* Designing the product page --------------------------------------------------------------------------*/
+.prod-header{
+    width: 95%;
+    max-width: 95vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    transition: transform .5s;
+}
+.product-list{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+svg{
+    width: 30px;
+}
+#product-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+#product-header .icon-cart{
+    position: relative;
+}
+#product-header .icon-cart span{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -20px;
+}
+/* Designing the product section */
+.product-container .item img{
+    width: 50%;
+    border-radius: 25px;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+.product-container .item{
+    background-color: #eeeee6;
+    padding: 20px;
+    border-radius: 20px;
+}
+.product-container .item h2{
+    font-weight: 500px;
+    font-size: large;
+}
+.product-container .item #kush-price{
+    letter-spacing: 4px;
+    font-size: small;
+}
+.product-container .item .addCart{
+    background-color: #353432;
+    color: #eee;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.cartTab{
+    width: 400px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    inset: 0 -400px 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: .5s;
+}
+.cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+.cartTab .button{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cartTab .button button{
+    background-color: #E8BC0E;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.cartTab .button #close{
+    background-color: #eee;
+}
+.cartTab .listCart .item img{
+    width: 100%;
+    border-radius: 20px;
+}
+.cartTab .listCart .item{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.listCart .quantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    color: #555;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.listCart .quantity span:nth-child(2)
+{
+    background-color: transparent;
+    color: #eee;
+}
+.listCart .item:nth-child(even){
+    background-color: #eee1;
+}
+.listCart{
+    overflow: auto;
+}
+.listCart::-webkit-scrollbar{
+    width: 0;
+}
+body.showCart .cartTab{
+    inset: 0 0 0 auto;
+}
+body.showCart .prod-header{
+    transform: translateX(-250px);
+}
+@media screen and (max-width: 992px){
+    .product-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+@media screen and (max-width: 480px){
+    .product-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+}
+/* Designing the sign in page -----------------*/
+#login-form
+{
+
+    width: 100%;
+    min-height: 100vh;
+
+    position: relative;
+
+    background: url(https://res.cloudinary.com/hhit92yno/image/upload/c_fit,f_auto,h_2048,w_2048/v1/media/lspzxhwsk9ec7q6ioq84.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#sign-inF{
+
+    border: 2px solid #505d63;
+    border-radius: 25px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 350px;
+    min-height: 30vh;
+
+    padding: 1rem 2rem 1rem;
+
+    position: absolute;
+    top: 25%;
+    left: 37%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+#log-inL{
+    text-align: center;
+
+    
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+
+    font-size: 2.0rem;
+
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+#username{
+
+    display: block;
+
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 1rem 2rem 1rem;
+    background: transparent;
+
+    width: 300px;
+    height: 30px;
+
+    color: white;
+
+    margin-top: 3%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+#password{
+
+    display: block;
+    width: 300px;
+    height: 30px;
+
+    color: white;
+
+    
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 1rem 2rem 1rem;
+    background: transparent;
+
+    margin-top: 3%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+#login-button{
+
+    margin-top: 3%;
+
+    width: 150px;
+
+    padding: 1rem 2rem 1rem;
+
+    font-size: 1.4rem;
+
+    margin-left: 27%;
+
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 5px;
+    border: none;
+}
+/* Designing the sign up page *------------------------------------------------------------------*/
+
+#sign-upF{
+    
+    width: 100%;
+    min-height: 100vh;
+
+    position: relative;
+
+    background: url(https://www.wheelbase.co.uk/wp-content/uploads/2023/06/JamesVincent-230614-104427.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#fSign-up{
+
+    border: 2px solid #505d63;
+    border-radius: 25px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 350px;
+    min-height: 30vh;
+
+    padding: 1rem 2rem 1rem;
+
+    position: absolute;
+    top: 25%;
+    left: 37%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+#sign-upL{
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+
+    font-size: 2.0rem;
+
+    color: white;
+}
+#email{
+    display: block;
+
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 1rem 2rem 1rem;
+    background: transparent;
+
+    width: 300px;
+    height: 30px;
+
+    color: white;
+
+    margin-top: 3%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+#create-username{
+    display: block;
+
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 1rem 2rem 1rem;
+    background: transparent;
+
+    width: 300px;
+    height: 30px;
+
+    color: white;
+
+    margin-top: 3%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+#create-password{
+    display: block;
+
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 1rem 2rem 1rem;
+    background: transparent;
+
+    width: 300px;
+    height: 30px;
+
+    margin-top: 3%;
+
+    color: white;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+#confirm-password{
+    display: block;
+
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 1rem 2rem 1rem;
+    background: transparent;
+
+    width: 300px;
+    height: 30px;
+
+    color: white;
+
+    margin-top: 3%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+#sign-upbttn{
+    margin-top: 3%;
+
+    width: 150px;
+
+    padding: 1rem 2rem 1rem;
+
+    font-size: 1.4rem;
+
+    margin-left: 27%;
+
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 5px;
+    border: none;
+}
