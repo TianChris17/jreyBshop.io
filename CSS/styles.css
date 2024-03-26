@@ -13,7 +13,7 @@ body
     font-size: 1.6rem;
 
     width: 100%;
-    min-height: 120vh;
+    min-height: 100vh;
 }
 
 /* Designing the header od the page ----------------------------------------------------------------------*/
@@ -152,84 +152,6 @@ a
     width: 100%;
 
     background-color: #505d63;
-
-    margin-top: 5%;
-
-    display: grid;
-
-    grid-template-columns: 1 1 1 1 1 1 1 1 1 1;
-    grid-template-rows: 1 1;
-
-    grid-template-areas: "box1 box2 box3 box3 box3 box3 box4 box5 box6 box7"
-                         "box8 box8 box8 box8 box8 box8 box8 box8 box8 box8";
-}
-#footer-desc{
-
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
-
-    color: white;
-
-    font-size: 1.8rem;
-
-    grid-area: box1;
-
-    margin-left: 3%;
-}
-#footer-desc2{
-
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
-
-    color: white;
-
-    font-size: 1.8rem;
-
-    grid-area: box2;
-}
-#footer-desc3{
-
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
-
-    color: white;
-
-    font-size: 1.8rem;
-
-    grid-area: box3;
-}
-#fb{
-
-    grid-area: box4;
-
-    margin-top: 10%;
-}
-#ig{
-    grid-area: box5;
-
-    margin-top: 10%;
-}
-#tk{
-    grid-area: box6;
-
-    margin-top: 10%;
-}
-#yt{
-    grid-area: box7;
-
-    margin-top: 10%;
 }
 #copyright{
 
@@ -243,7 +165,6 @@ a
     font-variation-settings:
       "slnt" 0;
 
-      grid-area: box8;
 }
 
 /* Designing the product page --------------------------------------------------------------------------*/
